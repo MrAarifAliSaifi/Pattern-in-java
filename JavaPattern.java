@@ -5,7 +5,7 @@ public class JavaPattern {
         {
             for (int j=1;j<=10;j++)
             {
-               if(j>=6-i&&j<=4+i)
+               if(j<=6-i||j>=4+i)
                {
                    System.out.print("*");
                }else
